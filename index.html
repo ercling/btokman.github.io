@@ -20,13 +20,10 @@
         s.parentNode.insertBefore(l, s);
     })(window, document, 'mf');
 
-    mf.project = 27; // Your project ID
-    // mf.project = 148; // Your project ID
-    mf.msgSenderId =‘587960273742’; ; // required for webpush messages
-
-    // mf.msgSenderId = '543222444525'; // required for webpush messages
+    mf.project = 148; // Your project ID
+    mf.msgSenderId = '587960273742'; // required for webpush messages
     mf.sw = 'swfcm.js'; // service worker URL
- //   mf.debug = 'true'
+    mf.debug = 'true'
 
     mf('webpushfcm', 'init'); // Just prepare
     mf('webpushfcm', 'showPopup');
