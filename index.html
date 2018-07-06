@@ -25,10 +25,13 @@
     mf.msgSenderId = '543222444525'; // required for webpush messages
     mf.sw = 'swfcm.js'; // service worker URL
     mf.debug = 'true';
+    mf.popupName = 'webpush_25';
+    mf.testPopup = 'true';
+    mf.env = 'dev';
 
-    //mf('webpushfcm', 'auto'); // Showing popup after some time
-    mf('webpushfcm', 'init'); // Just prepare
-    mf('webpushfcm', 'showPopup');
+    mf('webpushfcm', 'auto'); // Showing popup after some time
+  //  mf('webpushfcm', 'init'); // Just prepare
+//    mf('webpushfcm', 'showPopup');
    // mf('webpushfcm', 'subscribe');
 </script>
 
