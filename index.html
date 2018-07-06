@@ -43,6 +43,12 @@
             if (typeof FastClick !== 'undefined') FastClick.attach(document.body);
         }, false);
 
+        Array.prototype.forEach.call(document.getElementsByClassName('close'), function (el) {
+            el.addEventListener('click', function () {
+                windowProxy.post({'action': 'close'});
+            }, false);
+        });
+
         Array.prototype.forEach.call(document.getElementsByClassName('blue'), function (el) {
             el.addEventListener('click', function () {
                 mf('webpushfcm', 'subscribe');
