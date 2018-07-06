@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="416a8483-49fb-4944-9bf0-cb744501e524" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latest.js" beforeDir="false" afterPath="$PROJECT_DIR$/latest.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,22 +17,26 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+            <state relative-caret-position="161">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="porthole.min.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/porthole.min.js">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="18" selection-end-column="6234" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="latest.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/latest.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="1" column="20088" selection-start-line="1" selection-start-column="20088" selection-end-line="1" selection-end-column="20088" />
+            <state relative-caret-position="306">
+              <caret line="1" column="18546" selection-start-line="1" selection-start-column="18546" selection-end-line="1" selection-end-column="18546" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -153,12 +158,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530866932381</updated>
-      <workItem from="1530866933810" duration="7402000" />
+      <workItem from="1530866933810" duration="7642000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7402000" />
+    <option name="totallyTimeSpent" value="7642000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1920" height="877" extended-state="0" />
@@ -169,8 +174,8 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.27307692" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.27307692" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -199,16 +204,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/latest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="1" column="20088" selection-start-line="1" selection-start-column="20088" selection-end-line="1" selection-end-column="20088" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/swfcm.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
@@ -216,13 +211,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/latest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="1" column="18546" selection-start-line="1" selection-start-column="18546" selection-end-line="1" selection-end-column="18546" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/porthole.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-end-column="6234" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        <state relative-caret-position="161">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
