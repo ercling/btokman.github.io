@@ -10,6 +10,23 @@
 </body>
 
 <script>
+
+    (function () {
+        var windowProxy = new Porthole.WindowProxy();
+
+        document.addEventListener('DOMContentLoaded', function () {
+            if (typeof FastClick !== 'undefined') FastClick.attach(document.body);
+        }, false);
+
+        Array.prototype.forEach.call(document.getElementsByClassName('blue'), function (el) {
+            el.addEventListener('click', function () {
+                windowProxy.post({'action': 'subscribe'});
+            }, false);
+        });
+
+    })();
+
+
     (function (w, d, f) {
         w[f] = function () {(w[f].q = w[f].q || []).push(arguments)};
         w['_mf_object_name'] = f;
