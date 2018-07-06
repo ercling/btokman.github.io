@@ -4,7 +4,6 @@
     <list default="true" id="416a8483-49fb-4944-9bf0-cb744501e524" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/latest.js" beforeDir="false" afterPath="$PROJECT_DIR$/latest.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="293">
+              <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -33,7 +32,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="latest.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="latest.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/latest.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="402">
@@ -74,6 +73,9 @@
     </option>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>alert(1</find>
+    </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
@@ -86,8 +88,8 @@
       <list>
         <option value="$PROJECT_DIR$/manifest.json" />
         <option value="$PROJECT_DIR$/swfcm.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/latest.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -167,12 +169,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530866932381</updated>
-      <workItem from="1530866933810" duration="16231000" />
+      <workItem from="1530866933810" duration="17223000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16231000" />
+    <option name="totallyTimeSpent" value="17223000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1920" height="877" extended-state="0" />
@@ -232,13 +234,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/latest.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="402">
@@ -246,6 +241,13 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
         </state>
       </provider>
     </entry>
