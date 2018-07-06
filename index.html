@@ -14,20 +14,7 @@
 </script>
 <script>
 
-    (function () {
-        var windowProxy = new Porthole.WindowProxy();
 
-        document.addEventListener('DOMContentLoaded', function () {
-            if (typeof FastClick !== 'undefined') FastClick.attach(document.body);
-        }, false);
-
-        Array.prototype.forEach.call(document.getElementsByClassName('blue'), function (el) {
-            el.addEventListener('click', function () {
-                windowProxy.post({'action': 'subscribe'});
-            }, false);
-        });
-
-    })();
 
 
     (function (w, d, f) {
@@ -48,6 +35,21 @@
 
     mf('webpushfcm', 'init'); // Just prepare
     mf('webpushfcm', 'showPopup');
+
+    (function () {
+        var windowProxy = new Porthole.WindowProxy();
+
+        document.addEventListener('DOMContentLoaded', function () {
+            if (typeof FastClick !== 'undefined') FastClick.attach(document.body);
+        }, false);
+
+        Array.prototype.forEach.call(document.getElementsByClassName('blue'), function (el) {
+            el.addEventListener('click', function () {
+                mf('webpushfcm', 'subscribe');
+            }, false);
+        });
+
+    })();
 
 </script>
 
