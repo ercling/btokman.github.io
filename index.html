@@ -8,9 +8,18 @@
 <body>
 
 </body>
-<script type="javascript" src="latest.js"></script>
-<script>
 
+<script>
+    (function (w, d, f) {
+        w[f] = function () {(w[f].q = w[f].q || []).push(arguments)};
+        w['_mf_object_name'] = f;
+        var l = document.createElement('script');
+        l.src = 'latest.js';
+        l.type = 'text/javascript';
+        l.async = true;
+        var s = d.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(l, s);
+    })(window, document, 'mf');
 
     mf.project = 148; // Your project ID
     mf.msgSenderId = '543222444525'; // required for webpush messages
