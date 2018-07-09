@@ -22,10 +22,9 @@
 
     mf.project = 148; // Your project ID
     mf.msgSenderId = '587960273742'; // required for webpush messages
-    mf.sw = 'swfcm.js'; // service worker URL
-    mf.debug = 'true'
+    mf.sw = 'swfcm.js'; // service worker URL | change for your own
 
-    mf('webpushfcm', 'init'); // Just prepare
+    mf('webpushfcm', 'init');
     mf('webpushfcm', 'showPopup');
 </script>
 
