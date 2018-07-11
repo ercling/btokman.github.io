@@ -10,10 +10,12 @@
 </body>
 <script>
   (function (w, d, f) {
-    w[f] = function () {(w[f].q = w[f].q || []).push(arguments)};
+    w[f] = function () {
+      (w[f].q = w[f].q || []).push(arguments)
+    };
     w['_mf_object_name'] = f;
     var l = document.createElement('script');
-    l.src = 'latest.js';
+    l.src = 'build/widget/latest.js';
     l.type = 'text/javascript';
     l.async = true;
     var s = d.getElementsByTagName('script')[0];
@@ -21,11 +23,23 @@
   })(window, document, 'mf');
 
   mf.project = 148; // Your project ID
+  mf.msgSenderId = '587960273742'; // required for webpush messages
+  mf.sw = 'swfcm.js'; // service worker URL | change for your own
 
-  mf('email', 'init');
+  var options = window.location.search.slice(1)
+    .split('&')
+    .reduce(function _reduce(/*Object*/ a, /*String*/ b) {
+      b = b.split('=');
+      a[b[0]] = decodeURIComponent(b[1]);
+      return a;
+    }, {});
+
+  if (options.slide && options.slide === '4') {
+    mf('webpushfcm', 'init');
+  } else if (options.slide && options.slide === '8') {
+    mf('email', 'init');
+  }
 </script>
-
-
 
 
 </html>
