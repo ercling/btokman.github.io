@@ -9,23 +9,22 @@
 
 </body>
 <script>
-    (function (w, d, f) {
-        w[f] = function () {(w[f].q = w[f].q || []).push(arguments)};
-        w['_mf_object_name'] = f;
-        var l = document.createElement('script');
-        l.src = 'latest.js';
-        l.type = 'text/javascript';
-        l.async = true;
-        var s = d.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(l, s);
-    })(window, document, 'mf');
+  (function (w, d, f) {
+    w[f] = function () {(w[f].q = w[f].q || []).push(arguments)};
+    w['_mf_object_name'] = f;
+    var l = document.createElement('script');
+    l.src = 'latest.js';
+    l.type = 'text/javascript';
+    l.async = true;
+    var s = d.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(l, s);
+  })(window, document, 'mf');
 
-    mf.project = 148; // Your project ID
-    mf.msgSenderId = '587960273742'; // required for webpush messages
-    mf.sw = 'swfcm.js'; // service worker URL | change for your own
+  mf.project = 148; // Your project ID
+  mf.msgSenderId = '587960273742'; // required for webpush messages
+  mf.sw = 'swfcm.js'; // service worker URL | change for your own
 
-    mf('webpushfcm', 'init');
-    mf('webpushfcm', 'showPopup');
+  mf('webpushfcm', 'init');
 </script>
 
 
