@@ -27,19 +27,7 @@
   mf.msgSenderId = '587960273742'; // required for webpush messages
   mf.sw = 'swfcm.js'; // service worker URL | change for your own
 
-  var options = window.location.search.slice(1)
-    .split('&')
-    .reduce(function _reduce(/*Object*/ a, /*String*/ b) {
-      b = b.split('=');
-      a[b[0]] = decodeURIComponent(b[1]);
-      return a;
-    }, {});
-
-  if (options.slide && options.slide === '4') {
-    mf('webpushfcm', 'init');
-  } else if (options.slide && options.slide === '8') {
-    mf('email', 'init');
-  }
+  mf('webpushfcm', 'init');
 </script>
 
 
