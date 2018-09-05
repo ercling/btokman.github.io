@@ -6,7 +6,10 @@ self.addEventListener('push', function (event) {
     }
     data.notification.data.url = data.notification.click_action
 
-    event.waitUntil(self.registration.showNotification(data.notification.title, data.notification))
+    event.waitUntil(self.registration.showNotification('Hi', {
+        'image' : 'https://static-tuko.akamaized.net/0fgjhs64rmuljvdin.36cc39f5.jpg',
+
+    }))
     // Track open
     fetch('https://api.mailfire.io/v1/webpush/show/' + data.data.id, {
         method: 'post'
