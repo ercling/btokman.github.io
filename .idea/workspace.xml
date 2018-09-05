@@ -37,8 +37,8 @@
       <file leaf-file-name="swfcm.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/swfcm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+            <state relative-caret-position="112">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -171,12 +171,12 @@
       <workItem from="1531126349747" duration="2941000" />
       <workItem from="1531307826458" duration="5436000" />
       <workItem from="1531388211373" duration="938000" />
-      <workItem from="1536144736783" duration="1002000" />
+      <workItem from="1536144736783" duration="1570000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30558000" />
+    <option name="totallyTimeSpent" value="31126000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-486" y="-1080" width="2048" height="1080" extended-state="0" />
@@ -400,8 +400,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/swfcm.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        <state relative-caret-position="112">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
         </state>
       </provider>
     </entry>

@@ -6,6 +6,10 @@ self.addEventListener('push', function (event) {
     }
     data.notification.data.url = data.notification.click_action
 
+    if (data.notification.data.image) {
+        data.notification.image = data.notification.data.image;
+    }
+
     console.log(data.notification);
 
     event.waitUntil(self.registration.showNotification(data.notification.title, data.notification))
@@ -24,7 +28,7 @@ self.addEventListener('notificationclick', function (event) {
             .matchAll({
                 type: 'window'
             })
-            .then(function() {
+            .then(function () {
                 return clients.openWindow(event.notification.data.url)
             })
     )
