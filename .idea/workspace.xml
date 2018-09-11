@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="416a8483-49fb-4944-9bf0-cb744501e524" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/latest.js" beforeDir="false" afterPath="$PROJECT_DIR$/latest.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,7 +26,7 @@
         <entry file="file://$PROJECT_DIR$/latest.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="657">
-              <caret line="1" column="109885" selection-start-line="1" selection-start-column="109885" selection-end-line="1" selection-end-column="109885" />
+              <caret line="1" column="109889" selection-start-line="1" selection-start-column="109889" selection-end-line="1" selection-end-column="109889" />
             </state>
           </provider>
         </entry>
@@ -170,18 +169,18 @@
       <workItem from="1531307826458" duration="5436000" />
       <workItem from="1531388211373" duration="938000" />
       <workItem from="1536144736783" duration="1570000" />
-      <workItem from="1536656975406" duration="1002000" />
+      <workItem from="1536656975406" duration="1078000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32128000" />
+    <option name="totallyTimeSpent" value="32204000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-486" y="-1080" width="2048" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24227318" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24227318" />
       <window_info anchor="bottom" id="TODO" order="11" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
@@ -190,7 +189,7 @@
       <window_info anchor="bottom" id="Run" order="7" />
       <window_info anchor="bottom" id="Version Control" order="4" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="3" visible="true" weight="0.21094528" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.21094528" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -410,7 +409,7 @@
     <entry file="file://$PROJECT_DIR$/latest.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="657">
-          <caret line="1" column="109885" selection-start-line="1" selection-start-column="109885" selection-end-line="1" selection-end-column="109885" />
+          <caret line="1" column="109889" selection-start-line="1" selection-start-column="109889" selection-end-line="1" selection-end-column="109889" />
         </state>
       </provider>
     </entry>
