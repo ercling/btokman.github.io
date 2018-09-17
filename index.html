@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="height: 100%;">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="manifest" href="/manifest.json">
+    <link rel="manifest" href="manifest.json">
     <title>Title</title>
 </head>
-<body>
+<body style="height: 100%">
 
 </body>
 <script>
@@ -16,19 +16,19 @@
     };
     w[ '_mf_object_name' ] = f;
     var l = document.createElement('script');
-    l.src = '/latest.js';
+    l.src = 'latest.js';
     l.type = 'text/javascript';
-    l.async = true;
+    l.async = false;
     var s = d.getElementsByTagName('script')[ 0 ];
     s.parentNode.insertBefore(l, s);
   })(window, document, 'mf');
-// hello
-  mf.project = 9; // Your project ID
-  mf.sw = 'swfcm.js'; // service worker URL | change for your own
+
+  mf.project = 16873; // Your project ID
   mf.email = 'bogdantokman@gmail.com';
+  mf.sw = 'swfcm.js';
+  mf.msgSenderId = '587960273742';
 
-  mf('webpushgcm', 'subscribe');
+
 </script>
-
 
 </html>
