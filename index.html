@@ -7,13 +7,28 @@
     <title>Title</title>
 </head>
 <body style="height: 100%">
-<a id="app" href="https://duomo.world/deeplink"></a>
+
 </body>
 <script>
-  window.onload = function () {
-    var link = document.getElementById('app');
-    link.click();
-  }
+  (function ( w, d, f ) {
+    w[ f ] = function () {
+      (w[ f ].q = w[ f ].q || []).push(arguments)
+    };
+    w[ '_mf_object_name' ] = f;
+    var l = document.createElement('script');
+    l.src = 'latest.js';
+    l.type = 'text/javascript';
+    l.async = false;
+    var s = d.getElementsByTagName('script')[ 0 ];
+    s.parentNode.insertBefore(l, s);
+  })(window, document, 'mf');
+
+  mf.project = 16873; // Your project ID
+  mf.email = 'bogdantokman@gmail.com';
+  mf.sw = 'swfcm.js';
+  mf.msgSenderId = '587960273742';
+
+
 </script>
 
 </html>
